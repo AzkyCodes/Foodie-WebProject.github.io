@@ -1,0 +1,260 @@
+  #head {
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("./Pic/background.jpg");
+  }
+  
+  .pembuka{ 
+    position: absolute;
+    margin: 0;
+    font-size: 4em;
+    width: 100%;
+    top: 43%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    transform: scale(.8);
+    text-shadow:3px 3px black;
+  }
+
+  .resep{
+    padding: 7px;
+    padding-right: 30em;
+    font-size: 9px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .cari-button{
+    border: none;
+    font-size: 8px;
+    background-color: white;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    color: rgb(134, 103, 146);
+    border-radius: 8px;
+  }
+  .cari-button:hover{
+    background-color: rgb(225, 211, 231);;
+  }
+  
+  .search-page1{
+    text-align: center;
+    width: 100%;
+    top: 57%;
+    position: absolute;
+  }
+
+  ul.navigasi{
+    position: sticky;
+    top: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    background-color: rgb(193, 168, 204);
+  }
+  
+  .navigasi > li{
+    display: inline-block;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+  }
+  
+  .navigasi > li > a{
+    padding: 1em 2em;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+  }
+  
+  .navigasi > li > a:hover{
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  li.nav-logo{
+    padding: 0;
+    width: 55px;
+    margin: 0 5px 5px;
+    float: left;
+    cursor: pointer;
+  }
+  
+  .nav-logo > img{
+    width: 100%;
+  }
+
+  #top-food{
+    padding: .5em 0;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 5em;
+  }
+  
+  .food1, .food2, .food3 {
+    display: inline-block;
+    text-align: center;
+    padding: 2em;
+    max-width: 13em;
+    max-height: 16em;
+    border-radius: 10px;
+    background-color: white;
+    margin: 0 1em;
+    box-shadow: 3px 3px rgb(134, 103, 146);
+  
+  }
+  
+  .food-img{
+    max-width: 12em;
+    max-height: 12em;
+    border-radius: 10px;
+  }
+  
+  h1.food-name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+  }
+  
+  .food1 a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  .food1 a:hover{
+    font-weight: bold;
+  }
+  
+  .food2 a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  .food2 a:hover{
+    font-weight: bold;
+  }
+  
+  .food3 a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  .food3 a:hover{
+    font-weight: bold;
+  }
+  
+  
+  .title{
+    text-align: center;
+    color: rgb(134, 103, 146);
+    font-style: bold;
+    font-size: 50px;
+    text-shadow:2px 2px white;
+
+  }
+
+  #artikel{
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 3em;
+  }
+
+  .pisang-ijo, .sate{
+    margin: auto;
+    text-align: justify;
+    width: 1000px;
+  }
+
+  .sate{
+    margin-bottom: 2em;
+    padding-bottom: 5em;
+  }
+
+  .pisang-ijo .artikel-img{
+    width: 20em;
+    height: 20em;
+    float: left;
+  }
+  .sate .artikel-img{
+    width: 20em;
+    height: 20em;
+    float: right;
+  }
+
+  .konten{
+    padding-top: 2em;
+    padding-left: 1.5em;
+  }
+
+  .pisang-ijo a{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    text-decoration: none;
+  }
+  .pisang-ijo a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  .sate a{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    padding-top: 2em;
+    padding-left: 3em;
+    text-decoration: none;
+  }
+  .sate a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  p.konten{
+    padding: 0;
+    margin: 0;
+    margin-left: 3em;
+    margin-bottom: 1em;
+    width: 55em;
+    text-align: justify;
+} 
+
+#about-us{
+    margin: auto;
+    text-align: center;
+    width: 1000px;
+    margin-top: 5em;
+  }
+
+.about-img, .konten-us{
+    display: inline-block;
+    margin-left: 3em;
+}
+
+  h2.judul-about{
+    text-align: center;
+  }
+
+  .konten-us{
+    width: 15em;
+    text-align: justify;
+  }
+  
+  .presentasi{
+    margin: auto;
+    text-align: center;
+  }
+  
+  
+
+
+  

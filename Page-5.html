@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie: Make Your Awesome Food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./Page-5.css">
+
+</head>
+<body>
+    <ul class="navigasi">
+        <li class="nav-logo"><img src="./Pic/Foodie-logo.png" alt="Foodie-logo.png"></li>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./Page-2.html">Resep</a></li>
+        <li><a href="./Page-5.html">Tips</a></li>
+    </ul>
+
+    <div id="main">
+        <li>
+            <div class="tips1">
+                <h3 class="judul-tips">Tips Menyimpan Cabai</h3>
+                <button class="lihat-button" onclick="redirectToPage('./Tips menyimpan cabai.html')">Lihat</button>
+            </div>    
+        </li>
+        <li>
+            <div class="tips2">
+                <h3 class="judul-tips">Tips Memilih Sayur Segar</h3>
+                <button class="lihat-button" onclick="redirectToPage('./tips memilih sayur segar.html')">Lihat</button>
+            </div>    
+        </li>
+        <li>
+            <div class="tips3">
+                <h3 class="judul-tips">Tips Memilih ikan</h3>
+                <button class="lihat-button" onclick="redirectToPage('./tips memilih ikan.html')">Lihat</button>
+            </div>    
+        </li>
+
+        <br>
+        
+         <li>
+            <div class="tips1">
+                <h3 class="judul-tips">Tips Memilih Buah Semangka</h3>
+                <button class="lihat-button" onclick="redirectToPage('./Tips Memilih Buah Semangka.html')">Lihat</button>
+            </div>    
+        </li>
+        <li>
+            <div class="tips2">
+                <h3 class="judul-tips">Tips Membersihkan Buah dan Sayur dari Pestisida</h3>
+                <button class="lihat-button" onclick="redirectToPage('./Tips Membersihkan Buah Dan Sayur Dari Pestisida.html')">Lihat</button>
+            </div>    
+        </li>
+        <li>
+            <div class="tips3">
+                <h3 class="judul-tips">Tips Menyimpan Beras</h3>
+                <button class="lihat-button" onclick="redirectToPage('./tips menyimpan beras.html')">Lihat</button>
+            </div>    
+        </li>
+
+    
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+    });
+    });
+
+    function redirectToPage(page) {
+        window.location.href = page;
+    }
+
+    document.querySelector('.nav-logo img').onclick = function(){
+        window.location.href = './index.html';
+    };
+</script>
+
+
+</body>
+</html>

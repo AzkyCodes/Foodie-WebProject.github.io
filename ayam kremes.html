@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie: Make Your Awesome Food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./Page-3-resep.css">
+    <style>
+          ul.navigasi{
+            position: sticky;
+            top: 0;
+            list-style: none;
+            padding: 5px 0;
+            margin-top: 0;
+            text-align: center;
+            background-color: rgb(193, 168, 204);
+            }
+        
+        .navigasi > li{
+            display: inline-block;
+            margin: auto;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 500;
+        }
+        
+        li.nav-logo{
+            padding: 0;
+            width: 60px;
+            margin: .2em 1 em;
+            float: left;
+            cursor: pointer;
+        }
+        .nav-logo > img{
+            width: 100%;
+        }
+
+        li.search-page1{
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(229, 223, 231);">
+    <div>
+        <ul class="navigasi">
+            <li class="nav-logo"><img src="./Pic/Foodie-logo.png" alt="Foodie-logo.png"></li>
+            <li class="search-page1">
+                <form action="">
+                    <input type="text" placeholder="Cari Resep" class="resep">
+                    <button type="submit" class="cari-button">Cari</button>
+                </form>
+            </li>
+        </ul>
+    </div>
+
+<div class="main-content">
+    <img src="./Pic/Food4-crop.jpeg" alt="Food4-crop.jpeg" class="img-food">
+    <h1 class="nama-food">Ayam Goreng Kremes</h1>
+
+    <div class="bahan">
+        <h2>Bahan</h2>
+        <ul>
+            <li>1 ekor ayam kampung/ayam pejantan (potong 4 bagian)</li>
+            <li>2 lembar daun salam</li>
+            <li>1 batang serai (memarkan)</li>
+            <li>1 bungkus kecil santan kara larutkan dengan 2 gelas air (bs diganti santan 1/2 butir kelapa) </li>
+            <li>1 sdt gula pasir</li>
+            <li>secukupnya garam</li>
+            <li>6 siung bawang merah</li>
+            <li>4 siung bawang putih</li>
+            <li>1/2 sdm ketumbar</li>
+            <li>1 cm kunyit (optional)</li>
+            <li>4 butir kemiri</li>
+            <li>300 ml air sisa rebusan ayam</li>
+            <li>2 sdm munjung tepung beras</li>
+            <li>125 gram tepung Sagu</li>
+            <li>1/2 sdt baking powder</li>
+            <li>1 butir kuning telur</li>
+        </ul>
+    </div>
+
+    <div class="langkah">
+        <h2>Cara Membuat</h2>
+        <ol>
+            <li>Campur santan dan bumbu halus (serai, salam, garam, dan gula).</li>
+            <li>Masukkan ayam masak dengan api kecil sampai santan menyusut dan bumbu meresap. Sisakan air rebusan ayam saring dan takar sampai 300 ml,sisihkan untuk kremesan.</li>
+            <li>Panaskan minyak goreng,celup ayam ke adonan kremes lalu goreng dg api sedang sampai matang,angkat,tiriskan. </li>
+            <li>Buat kremesan: Aduk semua bahan kecuali baking powder, panaskan minyak dalam wajan, sambil menunggu minyak panas masukkan baking powder ke dalam adonan, aduk rata. </li>
+            <li>Pastikan minyak sudah benar-benar panas, aduk-aduk adonan menggunakan telapak tangan, ambil adonan dengan tangan, kucurkan adonan dengan bantuan jari tangan dengan gerakan berputar di atas wajan. Setelah adonan masuk akan menyebar sendiri. Setelah mulai kokoh balik adonan kemudian  goreng sampai kecokelatan. Angkat lalu tiriskan dengan tissue dapur agar minyak terserap. Lalu taburkan kremes keatas ayam goreng. Ayam kremes siap disajikan.</li>
+        </ol>
+    </div>
+</div>
+   
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+           document.addEventListener('contextmenu', function (e) {
+               e.preventDefault();
+           });
+       });
+   document.querySelector('.nav-logo img').onclick = function(){
+       window.location.href = './index.html';
+   };
+</script>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie: Make Your Awesome Food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./Page-3-resep.css">
+    <style>
+          ul.navigasi{
+            position: sticky;
+            top: 0;
+            list-style: none;
+            padding: 5px 0;
+            margin-top: 0;
+            text-align: center;
+            background-color: rgb(193, 168, 204);
+            }
+        
+        .navigasi > li{
+            display: inline-block;
+            margin: auto;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 500;
+        }
+        
+        li.nav-logo{
+            padding: 0;
+            width: 60px;
+            margin: .2em 1 em;
+            float: left;
+            cursor: pointer;
+        }
+        .nav-logo > img{
+            width: 100%;
+        }
+
+        li.search-page1{
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(229, 223, 231);">
+    <div>
+        <ul class="navigasi">
+            <li class="nav-logo"><img src="./Pic/Foodie-logo.png" alt="Foodie-logo.png"></li>
+            <li class="search-page1">
+                <form action="">
+                    <input type="text" placeholder="Cari Resep" class="resep">
+                    <button type="submit" class="cari-button">Cari</button>
+                </form>
+            </li>
+         
+        </ul>
+    </div>
+
+<div class="main-content">
+    <img src="./Pic/Food6-crop.jpeg" alt="Food6-crop.jpeg" class="img-food">
+    <h1 class="nama-food">Teh Tarik</h1>
+
+    <div class="bahan">
+        <h2>Bahan</h2>
+        <ul>
+            <li>4 Sdm Teh Bubuk</li>
+            <li>4 Sdm Gula Pasir</li>
+            <li>2 Sdm Krimer</li>
+            <li>2 Sdm Susu Kental Manis</li>
+            <li>1 Ruas Kayu Manis</li>
+            <li>600 mL Air</li>
+        </ul>
+    </div>
+
+    <div class="langkah">
+        <h2>Cara Membuat</h2>
+        <ol>
+            <li>Masukan teh, gula pasir dan kayu manis;aduk rata. Untuk teh, saya pakai racikan; silahkan pakai teh bubuk biasa saja.</li>
+            <li>Masukan air dan masak hingga mendidih. Tunggu hingga dingin / hangat, pindahkan dalam wadah.</li>
+            <li>Campurkan skm dan juga krimer, aduk hingga merata.</li>
+            <li>Supaya keluar buih busa, bisa pakai hand blender atau pindahkan dulu kedalam botol & kocok manual.</li>
+            <li>Siap dihidangkan & selamat mencoba!</li>
+        </ol>
+    </div>
+</div>    
+
+<script>
+     document.addEventListener('DOMContentLoaded', function() {
+            document.addEventListener('contextmenu', function (e) {
+                e.preventDefault();
+            });
+        });
+    document.querySelector('.nav-logo img').onclick = function(){
+        window.location.href = './index.html';
+    };
+</script>
+
+</body>
+</html>

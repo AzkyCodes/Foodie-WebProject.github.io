@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie: Make Your Awesome Food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./Page-2.css">
+
+    <style>
+        html, body {
+        margin: 0;
+        padding: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    
+        h1, a{
+        font-family:'Kaushan Script', cursive;    
+        font-weight: 500;
+        }
+        footer{
+        text-align: center;
+        color: white;
+        font-weight: 500;
+        background-color: rgb(134, 103, 146);
+        width: 100%;
+        line-height: 50px;
+        position: absolute;
+        bottom: 0px;
+     }
+    
+    </style>
+
+</head>
+<body style="background-color: rgb(229, 223, 231);">
+    <ul class="navigasi">
+        <li class="nav-logo"><img src="./Pic/Foodie-logo.png" alt="Foodie-logo.png"></li>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./Page-2.html">Resep</a></li>
+        <li><a href="./Page-5.html">Tips</a></li>
+    </ul>
+    </div>
+
+    <div class="search-page1">
+        <form action="">
+            <input type="text" placeholder="Cari Resep" class="resep">
+            <button type="submit" class="cari-button">Cari</button>
+        </form>
+    </div>
+
+    <div id="cat-resep" style="text-align: center;">
+        <h1 class="title">Temukan Resep yang Kamu Butuhkan</h1>
+        <div class="food">
+            <img src="./Pic/Food1.jpeg" alt="Food1.jpeg" class="food-img">
+            <a href="./Page-4.html">Makanan</a>
+            
+        </div>
+        <div class="drink">
+            <img src="./Pic/download (26).jpg" alt="download (26).jpg" class="food-img">
+            <a href="./Page-4-minuman.html">Minuman</a>
+            
+        </div>
+        <div class="snack">
+            <img src="./Pic/download (12).jpg" alt="download (12).jpg" class="food-img">
+            <a href="./Page-4-snack.html">Makanan Ringan</a>
+        </div>
+    </div>
+
+    <footer>
+        © FOODIE's Website
+    </footer> 
+
+    <script>
+         document.addEventListener('DOMContentLoaded', function() {
+            document.addEventListener('contextmenu', function (e) {
+                e.preventDefault();
+            });
+        });
+        document.querySelector('.nav-logo img').onclick = function(){
+            window.location.href = './index.html';
+        };
+    </script>
+
+</body>
+</html>

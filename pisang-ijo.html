@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie: Make Your Awesome Food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./sejarah.css">
+    <style>
+         .resep{
+            padding: 8px;
+            padding-right: 40em;
+            font-size: 9px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        .cari-button{
+            border: none;
+            font-size: 8px;
+            background-color: white;
+            padding: 8px 15px;
+            cursor: pointer;
+            color: rgb(134, 103, 146);
+            border-radius: 10px;
+        }
+        .cari-button:hover{
+            background-color: rgb(225, 211, 231);
+        }
+        
+    </style>
+
+</head>
+<body style="background-color: rgb(229, 223, 231);">
+    <div>
+        <ul class="navigasi">
+            <li class="nav-logo"><img src="./Pic/Foodie-logo.png" alt="Foodie-logo.png"></li>
+            <li class="search-page1">
+                <form action="">
+                    <input type="text" placeholder="Cari Resep" class="resep">
+                    <button type="submit" class="cari-button">Cari</button>
+                </form>
+            </li>
+            
+        </ul>
+    </div>
+
+<div class="main-content">
+    <img src="./Pic/./sejarah (1).jpg" alt="sejarah (1).jpeg" class="img-food">
+    <h1 class="nama-food">Asal Usul Es Pisang Ijo</h1>
+
+    <div class="konten">
+        <p>
+            Selama bulan Ramadan, masyarakat, terutama umat Muslim, 
+            memiliki rutinitas yang dinantikan untuk menghirup udara 
+            segar di luar sambil menunggu bedug adzan Maghrib, dalam 
+            aktivitas yang dikenal sebagai 'Ngabuburit'. Ngabuburit 
+            merupakan tradisi khas yang hanya dilakukan selama Bulan 
+            Ramadan dan dapat diisi dengan berbagai aktivitas, mulai 
+            dari jalan-jalan sore, olahraga, hingga berburu takjil 
+            untuk berbuka puasa. Salah satu takjil favorit yang sering 
+            dinikmati adalah Es Pisang Ijo, minuman segar berisi buah 
+            pisang yang dijual oleh pedagang kaki lima sebagai sajian pembuka berbuka puasa.
+        </p>
+
+        <p>
+            Es Pisang Ijo bukan hanya menyegarkan, tetapi juga mengenyangkan 
+            karena mengandung buah pisang di dalamnya. Asal-usul minuman ini 
+            berasal dari Makassar, Sulawesi Selatan, di mana pisang menjadi 
+            bahan utama pembuatannya. Pisang berasal dari Asia Tenggara dan 
+            Indonesia terkenal sebagai salah satu produsen pisang terbesar di dunia, 
+            terutama di daerah Jawa Barat, Jawa Timur, dan Jawa Tengah.
+
+        </p>
+        <p>
+            Menurut legenda dari Masyarakat Makassar, Es Pisang Ijo dikembangkan
+             oleh seorang juru masak istana yang hampir dihukum mati oleh seorang 
+             raja kejam karena membuat masakan yang tidak disukai sang raja. 
+             Sang juru masak, yang dikenal sebagai Ijo, berhasil menyelamatkan 
+             diri dengan menciptakan kudapan segar yang disukai oleh sang raja. 
+             Sebagai penghargaan, sang raja memberikan nama kudapan tersebut sebagai 
+             'Es Pisang Ijo' untuk menghormati sang juru masak. Bagi Masyarakat Bugis, 
+             makanan ini memiliki makna filosofis karena warna hijau pada es tersebut 
+             melambangkan kedamaian dan keteduhan yang memberikan rasa sejuk dan tentram 
+             di hati, sementara dalam kehidupan sehari-hari, Es Pisang Ijo mencerminkan 
+             sikap sopan santun dan tutur kata yang elok.
+
+        </p>
+    </div>
+</div>
+
+<script>
+     document.addEventListener('DOMContentLoaded', function() {
+            document.addEventListener('contextmenu', function (e) {
+                e.preventDefault();
+            });
+        });
+    document.querySelector('.nav-logo img').onclick = function(){
+        window.location.href = './index.html';
+    };
+</script>
+
+</body>
+</html>

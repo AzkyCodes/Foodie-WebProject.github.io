@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie: Make Your Awesome Food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./sejarah.css">
+    <style>
+         .resep{
+            padding: 8px;
+            padding-right: 40em;
+            font-size: 9px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        .cari-button{
+            border: none;
+            font-size: 8px;
+            background-color: white;
+            padding: 8px 15px;
+            cursor: pointer;
+            color: rgb(134, 103, 146);
+            border-radius: 10px;
+        }
+        .cari-button:hover{
+            background-color: rgb(225, 211, 231);
+        }
+        
+    </style>
+
+</head>
+<body style="background-color: rgb(229, 223, 231);">
+    <div>
+        <ul class="navigasi">
+            <li class="nav-logo"><img src="./Pic/Foodie-logo.png" alt="Foodie-logo.png"></li>
+            <li class="search-page1">
+                <form action="">
+                    <input type="text" placeholder="Cari Resep" class="resep">
+                    <button type="submit" class="cari-button">Cari</button>
+                </form>
+            </li>
+            
+        </ul>
+    </div>
+
+<div class="main-content">
+    <img src="./Pic/./sejarah (2).jpg" alt="sejarah (2).jpeg" class="img-food">
+    <h1 class="nama-food">Sejarah Sate di Indonesia</h1>
+
+    <div class="konten">
+        <p>
+            Sate telah mengalami perkembangan yang signifikan 
+            sejak masuk ke Indonesia pada abad ke-15. Awalnya 
+            berasal dari India, hidangan ini diperkenalkan 
+            oleh saudagar Muslim Tamil dan Gujarat, yang 
+            menciptakan versi daging panggang yang kemudian 
+            dibawa ke Asia Tenggara, termasuk Indonesia. 
+            Sebelumnya, masyarakat Indonesia cenderung 
+            mengolah daging dengan cara direbus, namun 
+            kehadiran pedagang India dan Arab yang memperkenalkan 
+            cara memanggang daging (mirip kebab) membawa perubahan dalam tradisi kuliner.
+
+        </p>
+
+        <p>
+            Di sisi lain, versi lain menyebutkan bahwa sate adalah 
+            asli dari Indonesia, dengan legenda yang mengaitkannya 
+            dengan Satah, salah satu murid Sunan Gresik atau Maulana 
+            Malik Ibrahim, yang terbiasa mengolah daging kambing menjadi 
+            hidangan kecil-kecil yang dibumbui, ditusuk bambu, dan dipanggang. 
+            Sate menjadi populer di Indonesia dan diasosiasikan dengan keberadaan 
+            pedagang kaki lima yang menjajakannya secara berkeliling sejak zaman dahulu.
+        </p>
+        <p>
+            Perkembangan sate semakin berkembang di Indonesia seiring masuknya imigran 
+            India dan Arab pada abad ke-19, yang membawa pengaruh pada bumbu dan cara penyajian sate. 
+            Bahkan penjajah Belanda juga menyukai sate, meskipun cara mereka menikmatinya berbeda dengan 
+            penduduk lokal. Sate kemudian masuk dalam daftar makanan paling enak di dunia, menempati peringkat 
+            ke-14 dalam survei CNN tahun 2017, yang menunjukkan bahwa sate tidak hanya menjadi kebanggaan masyarakat 
+            Indonesia tetapi juga diminati oleh banyak orang dari berbagai negara.
+
+        </p>
+    </div>
+</div>
+
+<script>
+     document.addEventListener('DOMContentLoaded', function() {
+            document.addEventListener('contextmenu', function (e) {
+                e.preventDefault();
+            });
+        });
+    document.querySelector('.nav-logo img').onclick = function(){
+        window.location.href = './index.html';
+    };
+</script>
+
+</body>
+</html>

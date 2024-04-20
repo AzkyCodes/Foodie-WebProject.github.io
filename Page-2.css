@@ -1,0 +1,139 @@
+  ul.navigasi{
+    position: sticky;
+    top: 0;
+    list-style: none;
+    padding: 5px;
+    margin-top: 0;
+    text-align: right;
+    background-color: rgb(193, 168, 204);
+  }
+  
+  .navigasi > li{
+    display: inline-block;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+  }
+  
+  .navigasi > li > a{
+    padding: 1em 2em;
+    display: inline-block;
+    text-decoration: none;
+    transition: .5s;
+    color: white;
+  }
+  
+  .navigasi > li > a:hover{
+    font-size: 15px;
+    font-weight: bold;
+  }  
+  
+  li.nav-logo{
+    padding: 0;
+    width: 60px;
+    margin: .2em 1 em;
+    float: left;
+    cursor: pointer;
+  
+  }
+
+  .nav-logo > img{
+    width: 100%;
+  }
+  
+  .resep{
+    padding: 8px;
+    padding-right: 40em;
+    font-size: 9px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .cari-button{
+    border: none;
+    font-size: 8px;
+    background-color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+    color: rgb(134, 103, 146);
+    border-radius: 10px;
+  }
+  .cari-button:hover{
+    background-color: rgb(225, 211, 231);
+  }
+  
+  .search-page1{
+    padding: 2em;
+    padding-top: 1em;
+    text-align: center;
+  }
+  
+  .food, .drink, .snack {
+    display: inline-block;
+    margin: 2em 2em 0;
+    vertical-align: middle;
+    width: 20%;
+  }
+
+  .food, .drink, .snack {
+    background-color: white;
+    padding: 1.25em;
+    max-width: 10em;
+    max-height: 12em;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgb(134, 103, 146);
+  }
+  
+  .food-img{
+    max-width: 10em;
+    max-height: 10em;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .food a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .food a:hover{
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  .drink a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .drink a:hover{
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  .snack a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .snack a:hover{
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  .title{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: rgb(134, 103, 146);
+    font-style: bold;
+    text-shadow:2px 2px white;
+  }
+  
+ 

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie: Make Your Awesome Food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./Page-3.css">
+</head>
+<body>
+    <div>
+        <ul class="navigasi">
+            <li class="nav-logo"><img src="./Pic/Foodie-logo.png" alt="Foodie-logo.png"></li>
+            <li class="search-page1">
+                    <input type="text" placeholder="Cari Resep" class="resep">
+                    <button class="cari-button">Cari</button>
+            </li>
+            
+        </ul>
+    </div>
+
+<div class="main-content">
+    <img src="./Pic/Food5.jpeg" alt="Food5.jpeg" class="img-food">
+    <h1 class="nama-food">Ayam</h1>
+
+    <div class="bahan">
+        <h2>Bahan</h2>
+        <ul>
+            <li>Ayam</li>
+            <li>Ayam</li>
+            <li>Ayam</li>
+            <li>Ayam</li>
+            <li>Ayam</li>
+        </ul>
+    </div>
+
+    <div class="langkah">
+        <h2>Cara Membuat</h2>
+        <ol>
+            <li>Satu</li>
+            <li>Dua</li>
+            <li>Tiga</li>
+            <li>Empat</li>
+            <li>Lima</li>
+            <li>Enam</li>
+            <li>Tujuh</li>
+        </ol>
+    </div>
+</div>
+ 
+<script>
+     document.addEventListener('DOMContentLoaded', function() {
+            document.addEventListener('contextmenu', function (e) {
+                e.preventDefault();
+            });
+        });
+        
+    document.querySelector('.nav-logo img').onclick = function(){
+        window.location.href = './index.html';
+    };
+</script>
+
+</body>
+</html>

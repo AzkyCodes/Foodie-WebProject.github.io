@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  h1{
+    font-family:'Kaushan Script', cursive;    
+    font-weight: 500;
+  }
+  
+  ul.navigasi{
+    position: sticky;
+    top: 0;
+    list-style: none;
+    padding: 5px 0;
+    margin-top: 0;
+    text-align: center;
+    background-color: rgb(193, 168, 204);
+  }
+  
+  .navigasi > li{
+    display: inline-block;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+  }
+  
+  li.nav-logo{
+    padding: 0;
+    width: 60px;
+    margin: .2em 1 em;
+    float: left;
+    cursor: pointer;
+  
+  }
+
+  .nav-logo > img{
+    width: 100%;
+  }
+
+  li.search-page1{
+    text-align: center;
+    padding: 1em;
+  }
+
+ .main-content{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+ }
+
+ .img-food{
+    margin: 10px;
+    margin-bottom: 20px;
+    width: 38em;
+    height: 15em;
+    border-radius: 10px;
+ }
+
+ .nama-food, .konten{
+    text-align: justify;
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: .5em;
+    padding: 10px;
+}
+
+ .konten{
+    margin-bottom: .75em;
+    text-align: justify;
+    padding-top: 1em;
+}
+
+.konten p{
+    margin: auto;
+    width: 550px;
+    margin-bottom: 1em;
+}

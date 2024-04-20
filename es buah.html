@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie: Make Your Awesome Food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./Page-3-resep.css">
+    <style>
+          ul.navigasi{
+            position: sticky;
+            top: 0;
+            list-style: none;
+            padding: 5px 0;
+            margin-top: 0;
+            text-align: center;
+            background-color: rgb(193, 168, 204);
+            }
+        
+        .navigasi > li{
+            display: inline-block;
+            margin: auto;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 500;
+        }
+        
+        li.nav-logo{
+            padding: 0;
+            width: 60px;
+            margin: .2em 1 em;
+            float: left;
+            cursor: pointer;
+        }
+        .nav-logo > img{
+            width: 100%;
+        }
+
+        li.search-page1{
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(229, 223, 231);">
+    <div>
+        <ul class="navigasi">
+            <li class="nav-logo"><img src="./Pic/Foodie-logo.png" alt="Foodie-logo.png"></li>
+            <li class="search-page1">
+                <form action="">
+                    <input type="text" placeholder="Cari Resep" class="resep">
+                    <button type="submit" class="cari-button">Cari</button>
+                </form>
+            </li>
+        </ul>
+    </div>
+
+<div class="main-content">
+    <img src="./Pic/Food9-crop.jpeg" alt="Food9-crop.jpeg" class="img-food">
+    <h1 class="nama-food">Es Buah</h1>
+
+    <div class="bahan">
+        <h2>Bahan</h2>
+        <ul>
+            <li>1 buah alpokat, potong dadu</li>
+            <li>1 buah naga, potong dadu</li>
+            <li>4 potong pepaya, potong dadu</li>
+            <li>250 ml air hangat</li>
+            <li>2 sdm gula</li>
+            <li>1/2 sdt garam</li>
+            <li>1/4 sdt vanili</li>
+            <li>3 sdm kental manis</li>
+            <li>1 sdm krimer</li>
+        </ul>
+    </div>
+
+    <div class="langkah">
+        <h2>Cara Membuat</h2>
+        <ol>
+            <li>Campurkan semua buah yang sudah dipotong. Larutkan air, garam, vanili dan gula, aduk hingga larut.</li>
+            <li>Masukkan kental manis dan krimer, lalu sirami dengan air, aduk rata.
+                Sup buah siap disajikan dengan tambahan es batu, atau bisa disimpan dalak lemari es agar lebih nikmat.</li>
+            <li>Note: untuk buah bisa disesuaikan ya. Bisa juga tambahkan nata de coco</li>
+        </ol>
+    </div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+           document.addEventListener('contextmenu', function (e) {
+               e.preventDefault();
+           });
+       });
+   document.querySelector('.nav-logo img').onclick = function(){
+       window.location.href = './index.html';
+   };
+</script>
+</body>
+</html>

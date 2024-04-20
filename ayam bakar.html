@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie: Make Your Awesome Food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./Page-3-resep.css">
+    <style>
+          ul.navigasi{
+            position: sticky;
+            top: 0;
+            list-style: none;
+            padding: 5px 0;
+            margin-top: 0;
+            text-align: center;
+            background-color: rgb(193, 168, 204);
+            }
+        
+        .navigasi > li{
+            display: inline-block;
+            margin: auto;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 500;
+        }
+        
+        li.nav-logo{
+            padding: 0;
+            width: 60px;
+            margin: .2em 1 em;
+            float: left;
+            cursor: pointer;
+        }
+        .nav-logo > img{
+            width: 100%;
+        }
+
+        li.search-page1{
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(229, 223, 231);">
+    <div>
+        <ul class="navigasi">
+            <li class="nav-logo"><img src="./Pic/Foodie-logo.png" alt="Foodie-logo.png"></li>
+            <li class="search-page1">
+                <form action="">
+                    <input type="text" placeholder="Cari Resep" class="resep">
+                    <button type="submit" class="cari-button">Cari</button>
+                </form>
+            </li>
+        </ul>
+    </div>
+
+<div class="main-content">
+    <img src="./Pic/Food2-crop.jpeg" alt="Food2-crop.jpeg" class="img-food">
+    <h1 class="nama-food">Ayam Bakar</h1>
+
+    <div class="bahan">
+        <h2>Bahan</h2>
+        <ul>
+            <li>600 gr ayam</li>
+            <li>1 bh jeruk nipis</li>
+            <li>1/2 sdt garam</li>
+            <li>3 lembar daun salam</li>
+            <li>3 lembar daun jeruk</li>
+            <li>5 sdm kecap manis</li>
+            <li>Secukupnya garam dan kaldu jamur</li>
+            <li>250 ml air matang</li>
+            <li>6 bawang merah</li>
+            <li>3 bawang putih</li>
+            <li>5 butir kemiri</li>
+            <li>3/4 ruas jahe</li>
+            <li>1 sdm gula merah sisir</li>
+        </ul>
+    </div>
+
+    <div class="langkah">
+        <h2>Cara Membuat</h2>
+        <ol>
+            <li>Cuci bersih daging ayam,lumuri dengan perasan air jeruk nipis dan garam. Biarkan selama 15 menit, lalu cuci bersih lagi.</li>
+            <li>Masukkan bumbu halus kedalam wadah. Campur dengan kecap manis, merica bubuk, garam dan kaldu jamur, aduk rata.</li>
+            <li>Masukkan ayam, aduk sampai semua tercampur rata.diamkan 1 jam agar bumbu meresap.</li>
+            <li>Presto ayam yg sebelumnya dimasukkan daun jeruk & salam.setelah terdengar bunyi mendesis kecilkan api dan presto kurleb 15 menit.</li>
+            <li>Siapkan pemanggang, bakar daging ayam yang sudah diolesi mentega. Bakar sampai kedua sisinya berubah warna kecoklatan, angkat, siap disajikan</li>
+        </ol>
+    </div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+           document.addEventListener('contextmenu', function (e) {
+               e.preventDefault();
+           });
+       });
+   document.querySelector('.nav-logo img').onclick = function(){
+       window.location.href = './index.html';
+   };
+</script>
+
+</body>
+</html>

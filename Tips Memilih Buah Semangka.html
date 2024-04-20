@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie: Make Your Awesome Food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./Page-3-tips.css">
+    <style>
+         .resep{
+            padding: 8px;
+            padding-right: 40em;
+            font-size: 9px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        .cari-button{
+            border: none;
+            font-size: 8px;
+            background-color: white;
+            padding: 8px 15px;
+            cursor: pointer;
+            color: rgb(134, 103, 146);
+            border-radius: 10px;
+        }
+        .cari-button:hover{
+            background-color: rgb(225, 211, 231);
+        }
+        
+    </style>
+
+</head>
+<body style="background-color: rgb(229, 223, 231);">
+    <div>
+        <ul class="navigasi">
+            <li class="nav-logo"><img src="./Pic/Foodie-logo.png" alt="Foodie-logo.png"></li>
+            <li class="search-page1">
+                <form action="">
+                    <input type="text" placeholder="Cari Resep" class="resep">
+                    <button type="submit" class="cari-button">Cari</button>
+                </form>
+            </li>
+            
+        </ul>
+    </div>
+
+<div class="main-content">
+    <img src="./Pic/tips (4).jpeg" alt="tips (4).jpeg" class="img-food">
+    <h1 class="nama-food">Tips Memilih Buah Semangka</h1>
+
+    <div class="langkah">
+        <ol>
+            <li>Pilih yang terasa berat untuk ukurannya.</li>
+            <li>Periksa bagian bawahnya untuk melihat bercak kuning.</li>
+            <li>Ketuk semangka dan dengarkan suara yang padat.</li>
+            <li>Carilah kulit yang cerah dan tekstur sedikit kasar.</li>
+            <li>Pastikan ekor dan batangnya kering.</li>
+            <li>Percayai insting aroma, cium ujung semangka untuk mendeteksi aroma manis.</li>
+        </ol>
+    </div>
+</div>
+<iframe width="450" height="500" src="https://rss.app/embed/v1/list/thQenND9mKPa4kht" frameborder="0"></iframe>
+
+<script>
+     document.addEventListener('DOMContentLoaded', function() {
+            document.addEventListener('contextmenu', function (e) {
+                e.preventDefault();
+            });
+        });
+    document.querySelector('.nav-logo img').onclick = function(){
+        window.location.href = './index.html';
+    };
+</script>
+
+</body>
+</html>
